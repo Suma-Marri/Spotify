@@ -190,7 +190,7 @@ def main():
 		
 		# Tab-separated file.
 		else:
-			f.write('Track Name\tArtists\tAlbum\tURI\tRelease Date\r')
+			f.write('name\tartists\talbum\tURI\trelease_date\r')
 			for playlist in playlists:
 				#f.write(playlist['name'] + '\r\n')
 				for track in playlist['tracks']:
